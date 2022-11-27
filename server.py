@@ -6,7 +6,7 @@ from api import IBapi
 from time import sleep
 
 api = IBapi()
-app = FastAPI(title="Skynet sbapi", version="0.0.1")
+app = FastAPI(title="Skynet ibapi", version="0.0.1")
 
 
 @app.on_event("startup")
