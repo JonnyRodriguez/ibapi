@@ -33,8 +33,8 @@ def get_orders():
 
 
 @app.get("/price/{symbol}")
-def get_symbol_price(symbol: str, secType: str = 'STK'):
-    return api.getSymbolPrice(symbol, secType)
+def get_symbol_price(symbol: str, sectype: str = 'STK'):
+    return api.getSymbolPrice(symbol, sectype)
 
 
 if __name__ == "__main__":
